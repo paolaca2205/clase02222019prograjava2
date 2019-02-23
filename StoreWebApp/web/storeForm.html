@@ -8,23 +8,23 @@
         <h1>Store Form</h1>
         <br>
         
-        <form >
+        <form id="StoreForm" name="storeForm" action="StoreServlet" method="get">
             <label>Name: </label>
             <br>
-            <input />
+            <input type="text" id="name" name="name" />
             <br><br>
             
             <label>Apple Price: </label>
             <br>
-            <input />
+            <input type="number" id="price" name="price" value="0"/>
             <br><br>
             
             <label>Quantity: </label>
             <br>
-            <input />
+            <input type="number" id="quantity" name="quantity" value="0"/>
             <br><br>
             
-            <input type="submit" value="Send" />
+            <input type="submit" id="mysubmit" name="mysubmit" value="Send" />
         </form>
     </body>
 </html>
